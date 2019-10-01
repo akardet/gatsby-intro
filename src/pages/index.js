@@ -6,7 +6,7 @@ import Layout from '../components/layout';
 export default () => (
   <Layout>
     <h1>Home</h1>
-    <p>Hello Minnesota!</p>
+    <p>Hello Texas!</p>
     <Link to="/about">Learn about me</Link>
   </Layout>
 );

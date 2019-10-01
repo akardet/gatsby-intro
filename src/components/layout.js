@@ -53,12 +53,15 @@ const Layout = ({ children }) => {
           }
         `}
       />
+
       <Helmet>
         <html lang="en" />
         <title>{title}</title>
         <meta name="description" content={description} />
       </Helmet>
+
       <Header />
+
       <main
         css={css`
           margin: 2rem auto;
